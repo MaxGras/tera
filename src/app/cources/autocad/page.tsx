@@ -12,7 +12,7 @@ export default function Page(){
             <p>Навчаючись на цьому курсі, слухачі отримають знання про можливості системи AutoCAD, ефективні способи і прийоми побудови двовимірної моделі реального об’єкта і створення на її основі креслення.</p>
           
             </div>
-            <span className="font-[700]">Програма курсу "AutoCAD (20 занять):</span>
+            <span className="font-[700]">Програма курсу AutoCAD (20 занять):</span>
             <ul className="px-6 list-inside list-disc">
                 {programmArray.map((item,index)=>(
                     <li key={index}>{item}</li>
